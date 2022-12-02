@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Daily Entries {% endblock %}</h1>
+        {% for post in posts %}
+	        <div class='post'>
+			<p>{{ post['created'] }}</p>
+			<h2>{{ post['entry_title'] }}</h2>
+			<p>{{ post['content'] }}</p>
+			<h2> Feeling rating </h2>
+			<p>{{ post['feeling_rating'] }}</p>
+			<h2> What im greatful for </h2>
+			<p>{{ post['greatful'] }}</p>
+			<a href="{{ url_for('edit_entry', id=post['id']) }}">EDIT</a>
+		</div>
+	{% endfor %}
+{% endblock %}

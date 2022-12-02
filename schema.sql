@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS entries;
+
+CREATE TABLE entries (
+	    id INTEGER PRIMARY KEY AUTOINCREMENT,
+	    created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	    entry_title TEXT NOT NULL,
+	    content TEXT NOT NULL,
+	    feeling_rating INTEGER NOT NULL,
+	    greatful TEXT NOT NULL
+);

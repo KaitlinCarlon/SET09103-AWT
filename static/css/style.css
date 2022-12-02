@@ -1,0 +1,70 @@
+body{
+	font-family: "Times New Roman", Times, serif;
+	color: #4a4a4a;
+}
+
+.post, .home_page {
+	padding: 10px;
+	margin: 50px;
+	background-color: #c9fdd7;
+	color: #4a4a4a;
+	text-padding: 10px; 
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.1em;
+	text-decoration: underline;
+	color: #4a4a4a;
+}
+
+nav a {
+	color: #cbf078;
+	font-size: 3em;
+	margin-left: 50px;
+	text-decoration: underline;
+	text-align: center;
+	padding: 40px;
+}
+
+.alert {
+	padding: 20px;
+	margin: 5px;
+	color: #4a4a4a;
+	background-color: #e46161;
+}
+label {
+	color: #4a4a4a;
+	font-size: 1.4em;
+}
+
+input[type=text]:focus, [type=textarea]:focus {
+	background-color: #c9fdd7;
+}
+form {
+	padding: 40px;
+	text-align: center;
+	padding-bottom: 2em;
+	background-color: #c9fdd7;
+}
+
+button {
+	background-color: #cbf078;
+	text-color: #4a4a4a;
+	font-size: 2em;
+	padding: 0.5em;
+	
+}
+
+input[type=submit]{
+	background-color: #e46161;
+	text-color: #4a4a4a;
+	font-size: 2em;
+	padding: 0.5em;
+}
+
+
